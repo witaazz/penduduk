@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Pekerjaan;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Sektor;
 use App\Http\Requests\Pekerjaan\CreateSektorRequest;
 
