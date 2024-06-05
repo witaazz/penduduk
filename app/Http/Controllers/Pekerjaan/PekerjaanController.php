@@ -20,7 +20,7 @@ class PekerjaanController extends Controller
 
     public function tambah()
     {
-        $data['sektor'] = Sektor::get();
+        $data['sektor'] = Sektor::firstOrFail();
         return view('pekerjaan.tambah', $data);
     }
 
